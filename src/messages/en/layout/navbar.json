@@ -1,0 +1,27 @@
+{
+  "logo": {
+    "brand": "CodeForge"
+  },
+  "nav": {
+    "products": "Services",
+    "cases": "Cases",
+    "websites": "Websites",
+    "blog": "Blog",
+    "dropdown": {
+      "thesis": "Thesis Projects",
+      "coursework": "Coursework",
+      "apps": "Web & Mobile Apps"
+    }
+  },
+  "buttons": {
+    "demo": "Request a Demo"
+  },
+  "footer": {
+    "linkto": "Link to Us",
+    "under": {
+      "policy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "CustomerSuccessTabs": {
+    "heading": "Our team creates digital solutions for your business",
+    "subheading": "We develop websites, applications, and other solutions. Our main goal is quality, speed, and results that exceed expectations. With us, your project will be delivered at the highest level.",
+    "steps": {
+      "collect": {
+        "title": "Creation",
+        "description": "We develop modern websites, apps, and digital products for any purpose. From landing pages to complex systems — everything to support your business growth."
+      },
+      "process": {
+        "title": "Quality",
+        "description": "The main goal of our team is flawless quality and thoughtful architecture. We use modern technologies and pay attention to every detail so the product is reliable and user-friendly."
+      },
+      "analyze": {
+        "title": "Speed",
+        "description": "We value time and deliver projects quickly without losing quality. Clear development processes and efficient communication help achieve great results fast."
+      }
+    }
+  }
+}

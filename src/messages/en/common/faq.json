@@ -1,0 +1,51 @@
+{
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "list": [
+      {
+        "question": "Why can't I register by myself?",
+        "answer": "Registration is done only through our team to ensure the correct setup of the platform."
+      },
+      {
+        "question": "Where can I see all the features of the platform?",
+        "answer": "You can request a demo from our team or check the documentation."
+      },
+      {
+        "question": "How do I start a demo?",
+        "answer": "To try the demo, click the “Demo” button in the top right corner of the site. We will contact you and show you all the platform's features."
+      },
+      {
+        "question": "How do I know my request was sent?",
+        "answer": "After submitting the form, you will see a confirmation on the screen. We will also send a notification to your email."
+      },
+      {
+        "question": "What if I don’t get a reply?",
+        "answer": "We usually respond within 2 hours. If you haven’t received a reply, please send the request again or contact us directly."
+      },
+      {
+        "question": "How can I contact you?",
+        "answer": "You can write to us via the website form, messengers, or email. We always try to respond quickly."
+      },
+      {
+        "question": "What services do you provide?",
+        "answer": "We develop websites, mobile and desktop applications, diploma and academic projects. From simple landing pages to complex systems — tailored to your needs."
+      },
+      {
+        "question": "What does website development include?",
+        "answer": "We create modern responsive websites: landing pages, corporate portals, online stores, and more. Beautiful design, user-friendly interface, and high loading speed — everything your business needs."
+      },
+      {
+        "question": "Do you develop mobile applications?",
+        "answer": "Yes, we build apps for iOS, Android, and Windows. They help automate processes and improve services."
+      },
+      {
+        "question": "Do you help with diploma projects?",
+        "answer": "Yes, we develop diploma and coursework projects, as well as educational applications. We guarantee uniqueness and professional execution."
+      },
+      {
+        "question": "What are your main principles of work?",
+        "answer": "We value quality, speed, and results. We create digital solutions at the highest level to exceed client expectations."
+      }
+    ]
+  }
+}

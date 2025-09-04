@@ -1,0 +1,24 @@
+{
+  "title": "Our Products",
+  "subtitle": "We create solutions for business, education, and personal projects. Here are just a few areas we work in:",
+  "items": {
+    "web": {
+      "title": "Website Development",
+      "description": "Modern responsive websites for any purpose: landing pages, corporate portals, online stores, and more.",
+      "highlight": "Beautiful design, user-friendly interface, and fast loading — everything your business needs.",
+      "button": "Learn More"
+    },
+    "apps": {
+      "title": "App Development",
+      "description": "Mobile and desktop applications for iOS, Android, and Windows. Solutions that help automate processes and improve services.",
+      "highlight": "Ease of use and high performance guaranteed.",
+      "button": "Learn More"
+    },
+    "study": {
+      "title": "Diploma and Academic Projects",
+      "description": "We assist with diploma works, coursework, and educational applications — from ideas to finished products.",
+      "highlight": "You’ll receive a high-quality, unique, and professionally designed project.",
+      "button": "Learn More"
+    }
+  }
+}
