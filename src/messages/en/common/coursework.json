@@ -1,0 +1,44 @@
+{
+    "CourseworkArticle": {
+        "title": "How to Write a Coursework: Complete Guide from Code Forge",
+        "subtitle": "The organization {brand} is your assistant in creating, formatting, and defending coursework projects.",
+        "author": "Code Forge Team",
+        "readingTime": "Reading time: {minutes} min",
+        "date": "September 6, 2025",
+        "whyImportantTitle": "Why is coursework important?",
+        "whyImportantText": "A coursework project is not just a formality, but a real opportunity to demonstrate skills in analysis, information systematization, and the ability to solve professional tasks. This is where students take their first step toward research and practical application of knowledge.",
+        "helpTitle": "How does Code Forge help?",
+        "helpIntro": "Our team supports students at every stage of writing their paper. We offer:",
+        "helpList": {
+            "consulting": "Consulting — we’ll help you choose a relevant topic and develop it correctly.",
+            "structuring": "Structuring — we’ll create a clear plan and logical structure.",
+            "methodology": "Methodological help — we’ll format the text according to university requirements.",
+            "examples": "Examples — we’ll provide samples of successful courseworks.",
+            "support": "Support — we’ll prepare you for the defense and possible commission questions."
+        },
+        "stepsTitle": "Stages of writing coursework",
+        "steps": [
+            "Choosing and approving a topic.",
+            "Searching and analyzing literature.",
+            "Developing a plan and structure.",
+            "Writing the theoretical and practical parts.",
+            "Formatting and editing according to standards.",
+            "Preparing for defense and answering possible questions."
+        ],
+        "tipsTitle": "Tips from Code Forge",
+        "tips": [
+            "Start preparation early — don’t leave it to the last moment.",
+            "Use only reliable sources.",
+            "Always check your work for plagiarism.",
+            "Practice presenting your coursework for a successful defense."
+        ],
+        "whyUsTitle": "Why choose us?",
+        "whyUsText": "Code Forge is a team of specialists with experience in teaching and practical work. We understand that students need not only to 'submit the paper' but also to master the process and defend it at a high level. That is why we are always there to support, guide, and advise.",
+        "ctaDemo": "Request a demo",
+        "share": {
+            "telegram": "Telegram",
+            "vk": "VKontakte",
+            "whatsapp": "WhatsApp"
+        }
+    }
+}

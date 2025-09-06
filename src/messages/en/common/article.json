@@ -1,0 +1,45 @@
+{
+    "Page": {
+        "hero": {
+            "title": "Diploma Projects",
+            "subtitle": "Explore a variety of diploma projects crafted with cutting-edge technologies to solve everyday challenges.",
+            "button": "Subscribe"
+        },
+        "servicesTitle": "Our Services",
+        "articles": [
+            {
+                "title": "Help with diploma projects of any complexity",
+                "subtitle": "From idea to defense",
+                "content": "We help students create diploma projects at a professional level. Regardless of topic and complexity, our experts guide you from choosing the topic to the final defense. We guarantee uniqueness, quality, and full compliance with your university’s requirements.",
+                "image": "/images/d/diploma-project.jpg",
+                "tags": [
+                    "diploma",
+                    "guidance",
+                    "quality"
+                ],
+                "cta": "Request a consultation"
+            },
+            {
+                "title": "Turnkey projects or partial support",
+                "content": "You can choose a convenient format: we complete the diploma 'turnkey' or join at any stage — from writing chapters to preparing a presentation. Flexible and time-saving.",
+                "image": "",
+                "tags": [
+                    "turnkey",
+                    "flexibility",
+                    "collaboration"
+                ]
+            },
+            {
+                "title": "Presentations and defense preparation",
+                "content": "In addition to the diploma text, we create stylish presentations, prepare your defense speech, and rehearse with you. You’ll feel confident before the committee and achieve a high grade.",
+                "image": "/images/d/presentation.jpg",
+                "tags": [
+                    "presentations",
+                    "defense",
+                    "confidence"
+                ],
+                "cta": "Learn more"
+            }
+        ]
+    }
+}

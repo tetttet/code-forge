@@ -8,9 +8,16 @@
   @apply max-w-10/12 mx-auto;
 }
 
+.container-7-12 {
+  @apply max-w-7/12 mx-auto;
+}
+
 @media screen and (max-width: 640px) {
   .container-10-12 {
     @apply max-w-11/12 mx-auto;
+  }
+  .container-7-12 {
+    @apply max-w-full mx-auto;
   }
 }
 
@@ -19,3 +26,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.bg-red {
+  background-color: #ef5355;
+}
+
+.bg-red:hover {
+  background-color: #d32f2f;
+}
+
+.text-red {
+  color: #ef5355;
+}
+
+.text-red-gradient {
+  background: linear-gradient(to right, #ef5355, #ff9800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

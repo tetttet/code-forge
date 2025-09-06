@@ -16,15 +16,18 @@ export default function Navbar() {
   const mobileDropdownLink =
     "px-16 py-3 bg-indigo-500 hover:bg-indigo-700 transition";
 
+  // helper для закрытия меню
+  const handleLinkClick = () => setIsOpen(false);
+
   return (
     <header className="sticky top-0 z-50 w-full bg-indigo-500 text-white shadow-sm">
       <div className="container-10-12 flex items-center justify-between px-6 py-3">
         {/* Logo */}
-        <div className="flex items-center text-2xl font-bold gap-1">
+        <Link href={"/"} className="flex items-center text-2xl font-bold gap-1">
           <span className="bg-white text-indigo-500 px-[5px] py-0.5">C</span>
           <span className="bg-white text-indigo-500 px-[6px] py-0.5">F</span>
           <span className="">CodeForge</span>
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex items-center gap-6 text-lg relative font-medium">
@@ -34,17 +37,17 @@ export default function Navbar() {
             </button>
 
             <div
-              className="absolute top-full left-0 mt-4 w-56 bg-indigo-500 text-white shadow-lg py-2
+              className="absolute top-full left-0 mt-4 w-56 bg-indigo-500 text-white shadow-lg 
                          opacity-0 invisible group-hover:opacity-100 group-hover:visible
                          transition-all duration-200"
             >
-              <Link href="#" className={linkBase}>
+              <Link href="/diploma-projects" className={linkBase}>
                 {t("nav.dropdown.thesis")}
               </Link>
-              <Link href="#" className={linkBase}>
+              <Link href="/course-work" className={linkBase}>
                 {t("nav.dropdown.coursework")}
               </Link>
-              <Link href="#" className={linkBase}>
+              <Link href="/web-and-mobile-apps" className={linkBase}>
                 {t("nav.dropdown.apps")}
               </Link>
             </div>
@@ -105,34 +108,61 @@ export default function Navbar() {
                   {t("nav.products")}{" "}
                   <ChevronRight className="mt-[4px]" size={24} />
                 </span>
-                <Link href="#" className={mobileDropdownLink}>
+                <Link
+                  href="/diploma-projects"
+                  className={mobileDropdownLink}
+                  onClick={handleLinkClick}
+                >
                   {t("nav.dropdown.thesis")}
                 </Link>
-                <Link href="#" className={mobileDropdownLink}>
+                <Link
+                  href="/course-work"
+                  className={mobileDropdownLink}
+                  onClick={handleLinkClick}
+                >
                   {t("nav.dropdown.coursework")}
                 </Link>
-                <Link href="#" className={mobileDropdownLink}>
+                <Link
+                  href="/web-and-mobile-apps"
+                  className={mobileDropdownLink}
+                  onClick={handleLinkClick}
+                >
                   {t("nav.dropdown.apps")}
                 </Link>
               </div>
 
               <hr className="w-full border-t border-white/30" />
 
-              <Link href="#" className={mobileLinkBase}>
+              <Link
+                href="#"
+                className={mobileLinkBase}
+                onClick={handleLinkClick}
+              >
                 {t("nav.cases")}
               </Link>
-              <Link href="#" className={mobileLinkBase}>
+              <Link
+                href="#"
+                className={mobileLinkBase}
+                onClick={handleLinkClick}
+              >
                 {t("nav.websites")}
               </Link>
-              <Link href="#" className={mobileLinkBase}>
+              <Link
+                href="#"
+                className={mobileLinkBase}
+                onClick={handleLinkClick}
+              >
                 {t("nav.blog")}
               </Link>
 
               {/* CTA button */}
               <div className="px-8 py-6">
                 <button
-                  className="w-full px-8 py-3 rounded-xl bg-[#ef5355] hover:bg-[#d32f2f] font-medium shadow-lg transition"
-                  onClick={() => setShowDemo(true)}
+                  className="w-full px-8 py-3 rounded-xl bg-red font-medium shadow-lg transition"
+                  onClick={() => {
+                    setShowDemo(true);
+                    setIsOpen(false);
+                  }}
                 >
                   {t("buttons.demo")}
                 </button>

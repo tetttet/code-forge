@@ -16,6 +16,9 @@ const nextConfig: NextConfig = {
       "randomuser.me",
       "raw.githubusercontent.com",
       "avatars.githubusercontent.com",
+      "images.pexels.com",
+      "via.placeholder.com",
+      "source.unsplash.com",
     ],
   },
   /* config options here */

@@ -20,17 +20,17 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2 text-gray-700">
             <li>
-              <Link href="web.html" className="hover:text-red-500 transition">
+              <Link href="/diploma-projects" className="hover:text-red-500 transition">
                 {t("nav.dropdown.thesis")}
               </Link>
             </li>
             <li>
-              <Link href="apps.html" className="hover:text-red-500 transition">
+              <Link href="/course-work" className="hover:text-red-500 transition">
                 {t("nav.dropdown.coursework")}
               </Link>
             </li>
             <li>
-              <Link href="link.html" className="hover:text-red-500 transition">
+              <Link href="/web-and-mobile-apps" className="hover:text-red-500 transition">
                 {t("nav.dropdown.apps")}
               </Link>
             </li>
