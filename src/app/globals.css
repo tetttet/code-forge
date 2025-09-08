@@ -27,19 +27,35 @@ body {
 }
 
 .bg-red {
-  background-color: #ef5355;
+  background-color: #f66b0f;
+}
+
+.bg-red-without-hover {
+  background-color: #f66b0f;
 }
 
 .bg-red:hover {
-  background-color: #d32f2f;
+  background-color: #ff9800;
 }
 
 .text-red {
-  color: #ef5355;
+  color: #f66b0f;
 }
 
 .text-red-gradient {
-  background: linear-gradient(to right, #ef5355, #ff9800);
+  background: linear-gradient(to right, #f66b0f, #ff9800);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Стили выделения текста */
+::selection {
+  background-color: #6366f1; /* Indigo-500 */
+  color: #ffffff; /* Белый текст */
+}
+
+/* Для Firefox нужен отдельный селектор */
+::-moz-selection {
+  background-color: #6366f1; /* Indigo-500 */
+  color: #ffffff;
 }

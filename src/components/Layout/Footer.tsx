@@ -72,7 +72,7 @@ export default function Footer() {
           <ul className="space-y-3 text-gray-700">
             <li>
               <button
-                className="font-bold text-white px-4 py-2 rounded-lg bg-[#ef5355] hover:bg-[#d32f2f] shadow-md transition"
+                className="font-bold text-white px-4 py-2 rounded-lg bg-red shadow-md transition"
                 onClick={() => setShowDemo(true)}
               >
                 {t("buttons.demo")}
@@ -103,7 +103,7 @@ export default function Footer() {
       {/* Bottom Section */}
       <div className="py-6 px-6 flex flex-col md:flex-row justify-between items-center gap-4 max-w-7xl mx-auto text-sm text-gray-600">
         <span className="font-bold text-[20px]">
-          © Code<span className="text-[#ef5355]">Forge</span>
+          © Code<span className="text-red">Forge</span>
         </span>
         <div className="flex gap-6">
           <Link

@@ -1,0 +1,1 @@
+export const NEXT_URL = process.env.NEXT_PUBLIC_URL || "https://code-forge-zeta.vercel.app/";

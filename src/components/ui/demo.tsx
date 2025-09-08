@@ -70,7 +70,7 @@ export default function Demo({ show, onClose }: { show: boolean; onClose: () => 
             <h2 className="text-2xl font-bold mb-2 text-black">Запрос демо</h2>
             <p className="mb-6 text-black">
               Заполните форму <br />
-              Мы свяжемся с вами в течение <span className="font-bold text-[#ef5355]">2</span> часов.
+              Мы свяжемся с вами в течение <span className="font-bold text-red">2</span> часов.
             </p>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4 text-black">
@@ -130,7 +130,7 @@ export default function Demo({ show, onClose }: { show: boolean; onClose: () => 
               <button
                 type="submit"
                 onClick={() => send(formData)}
-                className="mt-4 px-6 py-3 rounded-lg bg-[#ef5355] hover:bg-[#d32f2f] text-white font-medium transition"
+                className="mt-4 px-6 py-3 rounded-lg bg-red text-white font-medium transition"
               >
                 Отправить
               </button>

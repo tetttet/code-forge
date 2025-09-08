@@ -1,0 +1,19 @@
+{
+  "services": {
+    "title": "Our <highlight>services</highlight>",
+    "items": {
+      "web": {
+        "title": "Websites",
+        "desc": "From landing pages and blogs to CRM systems and e-commerce stores."
+      },
+      "mobile": {
+        "title": "Mobile Apps",
+        "desc": "iOS and Android solutions for business, education, and entertainment."
+      },
+      "study": {
+        "title": "Study Projects",
+        "desc": "Help with thesis and coursework in IT."
+      }
+    }
+  }
+}

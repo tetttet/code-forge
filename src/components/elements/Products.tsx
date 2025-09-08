@@ -8,21 +8,21 @@ import { GraduationCapIcon, LaptopIcon, MousePointerBan } from "lucide-react";
 const productsData = [
   {
     key: "web",
-    imageSrc: "/images/cover_website_1x.8c5b04ac.png",
+    imageSrc: "/images/cover/cover_website_1x.8c5b04ac.png",
     imageAlt: "Website Development",
     link: "/",
     icon: <LaptopIcon size={50} />
   },
   {
     key: "apps",
-    imageSrc: "/images/cover_website_1x.8c5b04ac.png",
+    imageSrc: "/images/cover/cover_website_1x.8c5b04aa.png",
     imageAlt: "App Development",
     link: "/",
     icon: <MousePointerBan size={50} />
   },
   {
     key: "study",
-    imageSrc: "/images/cover_website_1x.8c5b04ac.png",
+    imageSrc: "/images/cover/cover_website_1x.8c5b04bg.png",
     imageAlt: "Academic Projects",
     link: "/",
     icon: <GraduationCapIcon size={50} />
@@ -83,7 +83,7 @@ const ProductCard = ({
         </p>
         <Link
           href={product.link}
-          className="inline-block bg-[#ef5355] hover:bg-[#d32f2f] text-white font-semibold text-lg px-7 py-3 rounded-xl transition transform hover:scale-105"
+          className="inline-block bg-red text-white font-semibold text-lg px-7 py-3 rounded-xl transition transform hover:scale-105"
         >
           {t(`items.${product.key}.button`)}
         </Link>

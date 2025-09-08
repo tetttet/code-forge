@@ -5,6 +5,7 @@ import { ChevronDown, ChevronRight, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import Demo from "@/components/ui/demo";
+import Image from "next/image";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
@@ -23,10 +24,14 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full bg-indigo-500 text-white shadow-sm">
       <div className="container-10-12 flex items-center justify-between px-6 py-3">
         {/* Logo */}
-        <Link href={"/"} className="flex items-center text-2xl font-bold gap-1">
-          <span className="bg-white text-indigo-500 px-[5px] py-0.5">C</span>
-          <span className="bg-white text-indigo-500 px-[6px] py-0.5">F</span>
-          <span className="">CodeForge</span>
+        <Link href={"/"} className="flex">
+          <Image
+            src="/logo/site-logo.png"
+            alt="Site Logo"
+            width={150}
+            height={250}
+            className="ml-2"
+          />
         </Link>
 
         {/* Desktop Menu */}
@@ -67,7 +72,7 @@ export default function Navbar() {
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center gap-3">
           <button
-            className="px-4 font-bold py-[6px] rounded-lg bg-[#ef5355] hover:bg-[#d32f2f] transition"
+            className="px-4 font-bold py-[6px] rounded-lg bg-red transition"
             onClick={() => setShowDemo(true)}
           >
             {t("buttons.demo")}

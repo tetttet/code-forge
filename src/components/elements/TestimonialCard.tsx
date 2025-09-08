@@ -34,7 +34,7 @@ export default function TestimonialCard() {
         {/* Кнопка */}
         <button
           onClick={() => setShowDemo(true)}
-          className="px-5 py-2 border text-white font-bold bg-[#ef5355] hover:bg-[#d32f2f] rounded-lg transition"
+          className="px-5 py-2 border text-white font-bold bg-red rounded-lg transition"
         >
           {t("button")}
         </button>

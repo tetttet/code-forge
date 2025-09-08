@@ -7,6 +7,12 @@ type Step = "collect" | "process" | "analyze";
 
 const steps: Step[] = ["collect", "process", "analyze"];
 
+const stepsImages: Record<Step, string> = {
+  collect: "/images/c/Hire-Dedicated-Development-Team.png",
+  process: "/images/c/1_GaBtlHe240ZkwlcBrFczgQ.jpg",
+  analyze: "/images/c/Scrum-vs-Kanban-1-scaled.webp",
+};
+
 export default function CustomerSuccessTabs() {
   const [active, setActive] = useState<Step>("collect");
   const t = useTranslations("Customer.CustomerSuccessTabs");
@@ -41,7 +47,7 @@ export default function CustomerSuccessTabs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-left">
           <div className="flex justify-center">
             <Image
-              src={`/images/cover_website_1x.8c5b04ac.png`}
+              src={stepsImages[active]}
               alt={t(`steps.${active}.title`)}
               width={1200}
               height={800}
