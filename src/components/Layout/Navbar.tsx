@@ -58,13 +58,13 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="#" className="hover:opacity-80">
+          <Link href="/cases" className="hover:opacity-80">
             {t("nav.cases")}
           </Link>
-          <Link href="#" className="hover:opacity-80">
+          <Link href="/websites" className="hover:opacity-80">
             {t("nav.websites")}
           </Link>
-          <Link href="#" className="hover:opacity-80">
+          <Link href="/blog" className="hover:opacity-80">
             {t("nav.blog")}
           </Link>
         </nav>
@@ -139,21 +139,21 @@ export default function Navbar() {
               <hr className="w-full border-t border-white/30" />
 
               <Link
-                href="#"
+                href="/cases"
                 className={mobileLinkBase}
                 onClick={handleLinkClick}
               >
                 {t("nav.cases")}
               </Link>
               <Link
-                href="#"
+                href="/websites"
                 className={mobileLinkBase}
                 onClick={handleLinkClick}
               >
                 {t("nav.websites")}
               </Link>
               <Link
-                href="#"
+                href="/blog"
                 className={mobileLinkBase}
                 onClick={handleLinkClick}
               >

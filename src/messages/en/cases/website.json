@@ -1,0 +1,35 @@
+{
+    "websites": {
+        "title": "Websites",
+        "desc": "We create modern websites for business, education, and personal projects — from landing pages to CRM systems. Your project will be fast, convenient, and beautiful.",
+        "whatWeDo": {
+            "title": "What we do",
+            "list": [
+                "Development with modern frameworks (Next.js, React, Vue).",
+                "Responsive design for all devices.",
+                "SEO optimization and high loading speed.",
+                "Integration with payment systems and APIs."
+            ]
+        },
+        "examples": {
+            "title": "Project examples",
+            "projects": [
+                {
+                    "title": "Online stores",
+                    "desc": "Product catalogs, shopping cart, online payments.",
+                    "alt": "Online store"
+                },
+                {
+                    "title": "Corporate websites",
+                    "desc": "Company profile, services, and contacts.",
+                    "alt": "Corporate website"
+                },
+                {
+                    "title": "CRM and portals",
+                    "desc": "Systems for managing clients and business.",
+                    "alt": "CRM system"
+                }
+            ]
+        }
+    }
+}

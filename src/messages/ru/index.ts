@@ -15,6 +15,12 @@ import webHero from "./web/web-hero.json";
 import webServices from "./web/web-services.json";
 import webCTA from "./web/web-cta.json";
 
+// for cases folder
+import cases from "./cases/cases.json";
+import casesWebsites from "./cases/website.json";
+import casesMobileApps from "./cases/mobileapps.json";
+import casesDiploma from "./cases/diploma.json";
+
 const messages = {
   Navbar: navbar,
 
@@ -31,6 +37,12 @@ const messages = {
   WebHero: webHero,
   WebServices: webServices,
   WebCTA: webCTA,
+
+  // for cases folder
+  Cases: cases,
+  CasesWebsites: casesWebsites,
+  CasesMobileApps: casesMobileApps,
+  CasesDiploma: casesDiploma,
 };
 
 export default messages;

@@ -1,0 +1,59 @@
+{
+  "MobileApps": {
+    "title": "Mobile Applications",
+    "subtitle": "We create user-friendly, fast, and reliable apps for business, education, and personal use.",
+    "subtitleA": "user-friendly",
+    "subtitleB": "fast",
+    "subtitleC": "reliable",
+
+    "features": {
+      "cross": {
+        "title": "Cross-platform",
+        "desc": "We develop apps with React Native and Flutter to cover both iOS and Android without losing quality."
+      },
+      "publish": {
+        "title": "Publishing",
+        "desc": "We ensure support during submission to the App Store and Google Play, including certificates setup and passing moderation."
+      },
+      "integrations": {
+        "title": "Integrations",
+        "desc": "We connect maps, notifications, cameras, chat modules, and payment systems. All solutions are fully secure."
+      },
+      "uiux": {
+        "title": "UI/UX",
+        "desc": "We design interfaces focused on usability and minimalism while keeping your brand style."
+      }
+    },
+
+    "stagesTitle": "Development Stages",
+    "stages": {
+      "1": {
+        "title": "Analytics & Planning",
+        "text": "We research the market, analyze competitors, and define the app structure."
+      },
+      "2": {
+        "title": "Design",
+        "text": "We create prototypes and develop a modern design that is intuitive for users."
+      },
+      "3": {
+        "title": "Development",
+        "text": "We write clean code using modern technologies and integrate APIs and external services."
+      },
+      "4": {
+        "title": "Testing & Launch",
+        "text": "We run load tests, fix bugs, and publish the app in the App Store and Google Play."
+      },
+      "5": {
+        "title": "Support",
+        "text": "We update the app, add new features, and ensure smooth operation."
+      }
+    },
+
+    "usageTitle": "Use Cases",
+    "usageText": "We develop apps for online stores, delivery services, educational platforms, and corporate services. Our team ensures scalability, security, and ease of use.",
+    "usageShops": "online stores",
+    "usageDelivery": "delivery services",
+    "usageEdu": "educational platforms",
+    "usageCorp": "corporate services"
+  }
+}

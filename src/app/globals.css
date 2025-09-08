@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "tailwindcss";
-
 
 .container-10-12 {
   @apply max-w-10/12 mx-auto;
@@ -23,7 +22,7 @@
 
 body {
   background: linear-gradient(to bottom, #ffffff, #eeeeee);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg-red {
@@ -38,8 +37,23 @@ body {
   background-color: #ff9800;
 }
 
+.bg-white-to-red {
+  background-color: #ffffff;
+}
+.bg-white-to-red:hover {
+  background-color: #f66b0f;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 .text-red {
   color: #f66b0f;
+}
+.text-red-without-hover {
+  color: #f66b0f;
+}
+.text-red:hover {
+  color: #ff9800;
 }
 
 .text-red-gradient {

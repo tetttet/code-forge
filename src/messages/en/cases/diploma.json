@@ -1,0 +1,18 @@
+{
+    "Diploma": {
+        "title": "Thesis Projects",
+        "description": "We help students prepare their thesis projects at a high professional level. From concept development to defense – we support every stage to make your project convincing and modern.",
+        "section1": {
+            "title": "What’s included",
+            "item1": "Full cycle: from idea and planning to a finished software product.",
+            "item2": "Documentation: formatted according to standards and specific university requirements.",
+            "item3": "Presentations: preparation of defense materials with visuals and diagrams.",
+            "item4": "Topics: web development, mobile apps, artificial intelligence, databases, and more."
+        },
+        "section2": {
+            "title": "Additionally",
+            "p1": "We don’t just complete the work – we accompany you throughout the entire process: consultations, defense preparation assistance, and recommendations for successful performance before the committee.",
+            "p2": "This approach ensures your thesis is not only technically sound but also presentable and compliant with academic standards."
+        }
+    }
+}
