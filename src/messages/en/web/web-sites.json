@@ -1,0 +1,34 @@
+{
+    "page": {
+        "title": "We work with all top programming languages",
+        "subtitle": "Modern technologies for web, mobile apps, games, AI and cloud solutions.",
+        "createTitle": "What you can build",
+        "languagesTitle": "Popular languages and technologies"
+    },
+    "features": {
+        "web": {
+            "title": "Websites and Apps",
+            "desc": "Modern Frontend, Backend and Fullstack solutions — from landing pages to SaaS. Responsive, fast and user-friendly: E-commerce, CRM, marketplaces and more."
+        },
+        "mobile": {
+            "title": "Mobile Apps",
+            "desc": "Native and cross-platform solutions for iOS and Android. React Native, Flutter, Swift/Kotlin. Delivery, fintech, social apps and games."
+        },
+        "ai": {
+            "title": "AI and Data Science",
+            "desc": "ML models, neural networks, data analytics. Chatbots, forecasting and business automation."
+        },
+        "db": {
+            "title": "Databases and Backend",
+            "desc": "API design, microservices and PostgreSQL, MongoDB, MySQL optimization. Stability and scalability."
+        },
+        "games": {
+            "title": "Games and 3D",
+            "desc": "Unity, Unreal Engine, C++/C#. Games, simulators, VR/AR projects with polished gameplay and graphics."
+        },
+        "cloud": {
+            "title": "Cloud Solutions",
+            "desc": "AWS, Google Cloud, Azure. CI/CD, DevOps, Docker and Kubernetes. Scale, security and reliability."
+        }
+    }
+}

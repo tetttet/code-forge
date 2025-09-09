@@ -14,6 +14,7 @@ import coursework from "./common/coursework.json";
 import webHero from "./web/web-hero.json";
 import webServices from "./web/web-services.json";
 import webCTA from "./web/web-cta.json";
+import webSites from "./web/web-sites.json";
 
 // for cases folder
 import cases from "./cases/cases.json";
@@ -37,6 +38,7 @@ const messages = {
   WebHero: webHero,
   WebServices: webServices,
   WebCTA: webCTA,
+  WebSites: webSites,
 
   // for cases folder
   Cases: cases,
